@@ -1,4 +1,4 @@
-Coded news related domains, in json lines:
+Coded news related domains, in json lines in separated files, aggregated coding in aggregated_news_domains.csv, 3976 domains in total.
 
 # twitter_fake_newsdomains
 
@@ -40,6 +40,67 @@ Domains such as wordpress, google, facebook etc. are excluded.
 - satire
 - conspiracy
 
-Contact: yiqing@cs.cornell.edu
+# domaincodes_final
+
+## source:
+PNAS
+
+@article{scharkow2020social,
+  title={How social network sites and other online intermediaries increase exposure to news},
+  author={Scharkow, Michael and Mangold, Frank and Stier, Sebastian and Breuer, Johannes},
+  journal={Proceedings of the National Academy of Sciences},
+  volume={117},
+  number={6},
+  pages={2761--2763},
+  year={2020},
+  publisher={National Acad Sciences}
+}
 
 
+
+## categories:
+- Tabloid newspaper
+- Public broadcaster
+- Quality newspaper/magazine
+- Hyperpartisan media
+- Digital-born news outlet
+- Commercial broadcaster
+
+# german_newsdomain_coding
+
+## source
+Sebastian working paper
+
+## categories
+- commercial broadcaster
+- quality newspapers/magazines
+- tabloid newspaper 
+- online only media 
+- public broadcaster
+- Public broadcaster
+- Quality newspapers/magazines
+- Commercial broadcaster
+- Tabloid newspaper 
+- Online only media 
+- hyperpartisan news 
+- Political org/party/NGO
+- nan: none news
+
+## opensource
+
+## source
+from opensource.co (type1)
+
+## categories
+political
+bias
+rumor
+fake
+unreliable
+clickbait
+conspiracy
+reliable
+junksci
+satire
+hate
+state
